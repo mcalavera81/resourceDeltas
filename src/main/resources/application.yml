@@ -1,0 +1,11 @@
+datafeed:
+  poller:
+    period: 30000
+  source:
+    uri:
+  error:
+    channel: "exceptionsChannel"
+  http:
+    readTimeout: 5000
+    connectTimeout: 5000
+
